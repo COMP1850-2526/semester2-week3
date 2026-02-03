@@ -28,7 +28,7 @@ We can use the format statement to explore the representation.
 Compile the code and examine the output. 
 
 Adjust the variable values to test the code.
-- you can look up ASCII codes to verify the output.
+- you can [look up ASCII codes](https://www.ascii-code.com/) to verify the output.
 
 3. **Research question**
 
