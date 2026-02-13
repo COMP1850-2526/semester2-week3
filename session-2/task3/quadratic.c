@@ -15,13 +15,23 @@ int main( void ) {
     float b = -5.0;
     float c = 6.0;
     float root1, root2;
+    
 
     /*
      * Implement the formula for the 2 roots of a quadratic.
      * You can define additional variable for intermediate results to make the code simpler.
      * Print out the final results for the 2 roots as float values.
      */
+    // Calculate the discriminant
+    float discriminant = b * b - 4 * a * c;
 
+    // Calculate the two roots
+    root1 = (-b + sqrt(discriminant)) / (2 * a);
+    root2 = (-b - sqrt(discriminant)) / (2 * a);
+
+    // Print the results
+    printf("Root 1: %.2f\n", root1);
+    printf("Root 2: %.2f\n", root2);
     
 
     return 0;
